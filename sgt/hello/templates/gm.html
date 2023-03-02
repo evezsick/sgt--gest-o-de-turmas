@@ -4,9 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ola muundo</title>
+    <title>Tia</title>
 </head>
 <body>
-    <p>joga de mundp n vei</p>
+    {% if day %}
+    Bom dia, {{name}}!
+    {% else %}
+    Boa noite,
+     {{name}}!
+    {% endif %}
 </body>
 </html>
